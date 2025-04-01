@@ -1,0 +1,47 @@
+# Build directories
+/dist/
+/build/
+/out/
+
+# Dependency directories (if using package managers like npm, yarn, or bower)
+bower_components/
+
+# Log files
+*.log
+
+# IDE or editor-specific files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Environment variable files (if any)
+.env
+
+# Temporary files created by text editors or other tools
+*.swp
+*.bak
+*.tmp
+
+# CSS, JS minified and compiled files (if you have build processes)
+*.min.css
+*.min.js
+
+*.DS_Store
+.DS_Store
+
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon files
+Icon?
+
+# Thumbnails
+._*
+
+# Automatically generated files
+.Spotlight-V100
+.Trashes

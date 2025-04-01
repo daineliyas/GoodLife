@@ -1,0 +1,993 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta https-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>GoodLife</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Welcome to GoodLife Home Health Care Services. GoodLife is committed to providing nurses, care assistants, and support workers of the highest qualification to serve the needs and requirements of the clients in nursing homes, hospitals, hospices, retirement homes, and long-term care facilities across Kerala.">
+    <meta name="keywords"
+        content="GoodLife Home Health Care Services , Long Term Care Homes, Retirement Homes, Hospitals, Home care service, Customized care services, Home care service kerala">
+    <meta name="author" content=" GoodLife Home Health Care Services">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <!--[if lt IE 9]>
+	<script src="js/html5shiv.js"></script>
+	<![endif]-->
+
+    <!-- CSS Files================================================= -->
+    <style>
+  .item{
+  opacity:0.4;
+  transition:.4s ease all;
+  margin:0 20px;
+  transform:scale(.8);
+}
+@media(max-width:1000px){
+  .item{margin:0; transform:scale(.9)}
+}
+.active .item{
+  opacity:1;
+  transform:scale(1);
+} 
+body{
+  padding:0;
+  margin:80px 0 0 0;
+  font-family:Merriweather;
+  background:#f0e8d5;
+}
+
+.owl-item {
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: translateZ(0) scale(1.0, 1.0);
+}
+
+.inner{position:absolute; bottom:30px; left:0; right:0; text-align:center;}
+.inner a{color:#fff; text-decoration:none; border-bottom:2px solid rgba(255,255,255,0.5); transition:.3s ease border-color}
+.inner a:hover{border-color:#fff;}
+.black .inner a{color:#000; border-color:rgba(0,0,0,0.4)}
+.black .inner a:hover{border-color:#000;}
+
+/* .owl-carousel:after{content:""; display:block; position:absolute; width:8%; top:0; bottom:0; left:50%; margin-left:-4%; pointer-events: none; background:url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/43033/aett_logo_slider.png) no-repeat center 50%; background-size:100% auto;
+} */
+
+.owl-controls{position:absolute; margin-top:300px;}
+
+	/* CSS */
+	.button-75  {
+		align-items: center;
+		background-image: linear-gradient(135deg, darkred 50%, #fc894d);
+		border: 0;
+		border-radius: 10px;
+		box-sizing: border-box;
+		color: #fff;
+		cursor: pointer;
+		display:inline-flex;
+		flex-direction: column;
+		font-family: "Codec cold", sans-serif;
+		font-size: 16px;
+		font-weight: 700;
+		height: 54px;
+		justify-content: center;
+		letter-spacing: .4px;
+		line-height: 1;
+		max-width: 100%;
+		padding-left: 20px;
+		padding-right: 20px;
+		padding-top: 3px;
+		text-decoration: none;
+		text-transform: uppercase;
+		user-select: none;
+		-webkit-user-select: none;
+		touch-action: manipulation;
+	}
+
+	.button-75:active {
+		outline: 0;
+	}
+
+	.button-75:hover {
+		outline: 0;
+	}
+
+	.button-75 span {
+		transition: all 200ms;
+	}
+
+	.button-75:hover span {
+		transform: scale(.9);
+		opacity: .75;
+	}
+
+	@media screen and (max-width: 991px) {
+		.button-75 {
+			font-size: 15px;
+			height: 50px;
+		}
+
+		.button-75 span {
+			line-height: 50px;
+		}
+	}
+     </style>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="images/logo.png">
+
+    <link id="bootstrap" href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+     <link rel="stylesheet" href="styles/bootstrap.css" type="text/css">
+
+
+    <link rel="stylesheet" href="styles/animate.css" type="text/css">
+    <link rel="stylesheet" href="styles/plugin.css" type="text/css">
+
+    <link rel="stylesheet" href="styles/owl.carousel.css" type="text/css">
+    <link rel="stylesheet" href="styles/owl.theme.css" type="text/css">
+    <link rel="stylesheet" href="styles/owl.transitions.css" type="text/css">
+    
+    <link rel="stylesheet" href="styles/magnific-popup.css" type="text/css">
+    <link rel="stylesheet" href="styles/style.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="css/defaultstyle.css" type="text/css">
+
+
+     <!-- Bootstrap -->
+    <!-- <link id="bootstrap-grid" href="./bootstrap/dist/css/bootstrap-grid.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="./bootstrap/dist/css/bootstrap.css" type="text/css">
+    <link id="bootstrap-reboot" rel="stylesheet" href="./bootstrap/dist/css/bootstrap-reboot.min.css" type="text/css">
+    <link id="bootstrap" rel="stylesheet" href="./bootstrap/dist/css/bootstrap-grid.min.css" type="text/css"> -->
+
+    <!-- custom background -->
+    <link rel="stylesheet" href="styles/bg.css" type="text/css">
+
+    <!-- color scheme -->
+    <link rel="stylesheet" href="styles/yellow.css" type="text/css" id="colors">
+    <link rel="stylesheet" href="styles/color.css" type="text/css">
+
+    <!-- load fonts -->
+    <link rel="stylesheet" href="styles/font-awesome.css" type="text/css">
+    <link rel="stylesheet" href="styles/style(1).css" type="text/css">
+    <link rel="stylesheet" href="styles/style(2).css" type="text/css">
+
+    <!-- revolution slider -->
+    <link rel="stylesheet" href="styles/settings.css" type="text/css">
+    <link rel="stylesheet" href="styles/rev-settings.css" type="text/css">
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="styles/googleapis.css" type="text/css">
+
+    <script type="text/javascript" src="styles/jquery.js"></script>
+
+    <script type="text/javascript" charset="UTF-8" src="styles/common.js"></script>
+    <script type="text/javascript" charset="UTF-8" src="styles/util.js"></script>
+  
+
+</head>
+
+<body id="homepage" class="de_light" style="display: block;">
+
+    <div id="wrapper" style="background-size: cover;">
+
+        <!-- header begin -->
+        <header class="header-light hdr-transparent shadow-5-strong">
+            <div class="container" style="background-size: cover;">
+                <div class="row" style="background-size: cover;">
+                    <div class="col-md-2 float-left" style="background-size: cover;">
+                        <div class="de-header-flex" style="background-size: cover;">
+                            <!-- logo begin -->
+                            <div id="logo" style="background-size: cover;">
+                                <a class="navbar-brand" href="index.html">
+                                    <img src="./images/logoGoodLife.png" class="img-fluid img-logo rounded float-left"
+                                        max-width: alt="logoGoodLife" />
+                                </a>
+                            </div>
+                            <!-- logo close -->
+
+
+                        </div>
+                    </div>
+                    <div class="col-md-10" style="background-size: cover;">
+                        <!-- small button begin -->
+                        <span id="menu-btn" class="unclick"></span>
+                        <!-- small button close -->
+
+                        <!-- mainmenu begin -->
+                        <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light header-fixed shadow-5-strong"
+                            id="ftco-navbar">
+
+
+                            <div class="container-fluid">
+                                <!-- <a href="#" class="navbar-brand"><img src="/images/logoGoodLife.png"></a> -->
+                                <a class="navbar-brand" href="index.html">
+                                    <img src="./images/logoGoodLife.png" class="img-fluid img-logo rounded float-left"
+                                        max-width: alt="logoGoodLife" />
+                                </a>
+                                <!-- <a class="navbar-brand" href="index.html">GoodLife <span>Staffing</span></a> -->
+                                <form action="#" class="searchform order-sm-start order-lg-last">
+                                    <div class="form-group d-flex">
+                                        <input type="text" class="form-control pl-3" placeholder="Search">
+                                        <button type="submit" placeholder="" class="form-control search"><span
+                                                class="fa fa-search"></span></button>
+                                    </div>
+                                </form>
+                                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                                    data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false"
+                                    aria-label="Toggle navigation">
+                                    <span class="fa fa-bars"></span> Menu
+                                </button>
+                                <div class="collapse navbar-collapse" id="ftco-nav">
+                                    <ul class="navbar-nav m-auto">
+                                        <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
+                                        <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+                                        <li class="nav-item"><a href="index.html#section-why-choose-us-2" class="nav-link">Services</a></li>
+                                        <!-- <li class="nav-item"><a href="services.html" class="nav-link">Services</a></li> -->
+                                        <li class="nav-item"><a href="index.html#section-contact-landing-product" class="nav-link">Contact</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </nav>
+                        <!-- mainmenu close -->
+                    </div>
+
+                </div>
+            </div>
+
+
+        </header>
+        <!-- header close -->
+        <!-- content begin -->
+        <div id="content" class="no-bottom no-top" style="background-size: cover;">
+            <!-- parallax section -->
+            <section id="section-hero-index-landing-product" class="full-height" data-speed="3" data-type="background"
+                style="height: 800px; background-size: cover;">
+                <div class="text-center d-lg-block d-md-none d-none" style="background-size: cover;">
+                </div>
+
+                <div class="center-y text-center" style="margin-top: 222px; background-size: cover;background-repeat:none;text-align: center !important;">
+                    <span class="teaser">Where compassionate care meets the comfort of home.</span>
+                    <div class="spacer-half" style="background-size: cover;"></div>
+                    <h1 class="Headinglines"><span><strong> GoodLife</strong></span> </h1>
+                    <div class="small-border" style="background-size: cover;"></div>
+                    <div style="text-align: center;">            
+                        <a href="index.html#section-why-choose-us-2" >
+                        <button class="button-75"  role="button"> 
+                            <span class="text">Join Us</span>
+                         </button>
+                        
+                    </a>
+                </div>
+
+                </div>
+
+            </section>
+            <!-- parallax section close -->
+
+            <!-- section About Us -->
+            <section id="section-1" style="background-size: cover;">
+
+                <div class="container" style="background-size: cover;">
+                    <div class="row align-items-center" style="background-size: cover;">
+                        <div class="col-md-5 wow fadeInLeft text-middle"
+                            style="visibility: hidden; animation-name: none; background-size: cover;">
+                              <h2>About Us</h2>
+
+                                <p class="lead" style="text-align:justify">
+                                    At GoodLife, we believe that care is not just about meeting physical needs, but about nurturing the mind, body, and spirit in the comfort of your own home. Our mission is to offer compassionate, professional, and customized care services that prioritize your comfort, dignity, and independence. Whether you require short-term recovery assistance or long-term support due to age or illness, we are here to build a personalized care plan designed specifically for you.
+                                    </p>
+                                <p class="lead" style="text-align:justify">
+                                    Our team is committed to fostering a warm, safe, and supportive environment where both you and your loved ones can experience the peace of mind that comes with exceptional care. At GoodLife, we believe in a flexible approach—because your needs and preferences can change, our services adapt to provide the most relevant support at every stage.
+                                    </p>
+                                <p class="lead" style="text-align:justify">
+                                    We are honored to be part of your journey, offering care that evolves with you.</p>
+
+                            <a href="#" class="btn-custom">Learn About Us</a>
+                        </div>
+
+                        <div class="col-md-1" style="background-size: cover;"></div>
+
+                        <div class="col-md-6 text-middle" style="background-size: cover;">
+                            <img src="./images/Bg/bg15.jpeg" class="img-responsive" alt="">
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+            <!-- section About Us close -->
+
+            <!-- section Careers -->
+            <section id="section-side-1-index-landing-product" class="side-bg no-padding" data-bgcolor="#eee"
+                style="background-color: rgb(238, 238, 238); background-size: cover;">
+
+                <div class="image-container col-md-6 pull-left" data-delay="0"
+                    style="background-size: cover; height: 409px;">
+                    <div class="background-image" style="background-size: cover;"></div>
+                </div>
+
+                <div class="container" style="background-size: cover;">
+                    <div class="row" style="background-size: cover;">
+                        <div class="inner-padding" style="background-size: cover;">
+                            <div class="col-lg-5 offset-lg-7 wow fadeInRight" data-wow-delay=".5s"
+                                style="visibility: hidden; animation-delay: 0.5s; animation-name: none; background-size: cover;">
+                                <h2>GoodLife Careers</h2>
+
+                                <p class="lead" style="text-align:justify">GoodLife strives to provide better caregiving service. You can serve your clients, their families and the people around them in a fulfilling way. Caring for someone else is hard work, but it can also be rewarding and fulfilling.</p>
+
+                                <a href="#" class="btn-line bgcolor-primary" style="color: aliceblue">Search Jobs</a>
+                            </div>
+                            <div class="clearfix" style="background-size: cover;"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- section Careers close -->
+
+            <!-- section Our Services -->
+            <section id="section-why-choose-us-2" data-bgcolor="#F7F8FA"
+                style="background-color: rgb(247, 248, 250); background-size: cover;">
+
+                <div class="container" style="background-size: cover;">
+                    <div class="row" style="background-size: cover;">
+                        <div class="col-md-6 offset-md-3 text-center wow fadeInUp"
+                            style="visibility: hidden; animation-name: none; background-size: cover;">
+                            <h5 class="s2"></h5>
+                            <h1>Our Services</h1>
+                            <div class="separator" style="background-size: cover;"><span><i
+                                        class="fa fa-square"></i></span></div>
+                            <div class="spacer-single" style="background-size: cover;"></div>
+                        </div>
+
+                        <div class="clearfix" style="background-size: cover;"></div>
+
+                        <div class="col-md-3 wow fadeInUp" data-wow-delay=".3s"
+                            style="visibility: hidden; animation-delay: 0.3s; animation-name: none; background-size: cover;">
+                            <img src="./images/Bg/bg8.jpeg" class="img-responsive" alt="">
+                            <div class="text padding20" data-bgcolor="#ffffff"
+                                style="background-color: rgb(255, 255, 255); background-size: cover;">
+                                <h3 class="text-center">Home Nursing</h3>
+                                <p style="text-align:justify">At GoodLife, we bring professional, compassionate healthcare directly to your doorstep. Our home nursing services are designed to provide the highest standards of care, allowing you and your loved ones to stay in the comfort of your home without the need for hospital visits. Whether you are recovering from surgery, managing a chronic condition, or need daily assistance, we offer a wide range of services tailored to your unique needs. We believe that care should be personalized, and that is why our team is dedicated to delivering expert home nursing care with a focus on comfort, safety, and independence.
+                                    <br><br><br><br>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 wow fadeInUp" data-wow-delay=".3s"
+                            style="visibility: hidden; animation-delay: 0.3s; animation-name: none; background-size: cover;">
+                            <img src="./images/Bg/bg3.jpeg" class="img-responsive" alt="">
+                            <div class="text padding20" data-bgcolor="#ffffff"
+                                style="background-color: rgb(255, 255, 255); background-size: cover;">
+                                <h3 class="text-center">Nursing Care</h3>
+                                <p style="text-align:justify">At GoodLife, we believe that everyone deserves compassionate, high-quality healthcare in the comfort of their own home. Our Home Nursing Services provide professional medical support tailored to meet the unique needs of each individual. Whether you or your loved one require short-term recovery assistance or ongoing medical care, our dedicated team of experienced nurses is here to help. Our highly trained and licensed nurses offer a wide range of services, including Post-Surgical and Rehabilitation Care, Medication Management, Chronic Disease Management, Wound Care and Pain Management and Palliative and End-of-Life Care.
+                                    <br><br><br>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 wow fadeInUp" data-wow-delay=".9s"
+                            style="visibility: hidden; animation-delay: 0.9s; animation-name: none; background-size: cover;">
+                            <img src="./images/Service/maternal_baby_care.jpg" class="img-responsive" alt="">
+                            <div class="text padding20" data-bgcolor="#ffffff"
+                                style="background-color: rgb(255, 255, 255); background-size: cover;">
+                                <h3 class="text-center">Maternal & Baby Care</h3>
+                                <p style="text-align:justify">The birth of a child is a beautiful, life-changing event that brings joy, wonder, and new challenges. At GoodLife, we recognize that this special time can be both exciting and overwhelming, which is why we offer comprehensive Maternal & Baby Care services that are designed to support both mother and baby during this precious phase. Our compassionate team of experienced caregivers and nurses are dedicated to offering personalized care that nurtures the well-being of both mother and child.
+
+                                Our Maternal & Baby Care plan is not just about providing medical care—it’s about creating an unforgettable journey of connection, comfort, and trust.<br><br><br> 
+                                <!-- From the moment you discover you’re expecting, to the first precious moments with your newborn, we are here to support you every step of the way. Our compassionate team of experienced caregivers and nurses are dedicated to offering personalized care that nurtures the well-being of both mother and child.<br><br>
+                                
+                                Whether it's assisting with post-delivery recovery, offering breastfeeding support, or providing guidance on newborn care, we ensure that you feel confident and at ease. Our team helps you navigate this transformative period, allowing you to bond with your baby without the added stress of household tasks and medical concerns.<br><br><br> -->
+                            </p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 wow fadeInUp" data-wow-delay=".6s"
+                            style="visibility: hidden; animation-delay: 0.6s; animation-name: none; background-size: cover;">
+                            <img src="./images/Service/doctor_home_visit.jpeg" class="img-responsive" alt="">
+
+                            <div class="text padding20" data-bgcolor="#ffffff"
+                                style="background-color: rgb(255, 255, 255); background-size: cover;">
+                                <h3 class="text-center">Doctor's Home Visit</h3>
+                                <p style="text-align:justify">At GoodLife, we believe that quality healthcare should be accessible, convenient, and provided in the most comfortable setting possible. For elderly patients or individuals dealing with chronic conditions, our Doctor’s Home Visit service offers a perfect solution. Skip the stress, long waits, and discomfort of clinic visits—our highly experienced doctors come directly to your door to provide personalized, compassionate care. Our home visit service ensures that your family member receives the care they need without the added strain of leaving home. Whether it’s a regular check-up, medication management, or urgent medical attention, we bring the doctor to you, so you can focus on what really matters—your loved one's well-being.<br></p>
+                            </div>
+                        </div>
+
+
+                        <div class="col-md-3 wow fadeInUp mt-4" data-wow-delay="0s"
+                            style="visibility: hidden; animation-delay: 0s; animation-name: none; background-size: cover;">
+                            <img src="./images/Service/respite_care.jpg" class="img-responsive" alt="">
+                            <div class="text padding20" data-bgcolor="#ffffff"
+                                style="background-color: rgb(255, 255, 255); background-size: cover;">
+                                <h3 class="text-center">Respite care</h3>
+                                <p style="text-align:justify">
+                                    Our Respite Care Services are designed to give you peace of mind, knowing that your loved one is in safe and capable hands while you take a well-deserved break. Our skilled caregivers provide personalized assistance, including help with daily activities, companionship, medication reminders, and specialized care for individuals with dementia or mobility challenges. At GoodLife, we tailor our respite care to fit your schedule and needs—whether you require short-term assistance or ongoing support. By allowing us to step in, you can return to your caregiving role feeling refreshed, re-energized, and better equipped to provide the love and care your loved one deserves. Because taking care of yourself is just as important as taking care of others.
+                                    <!-- Caring for a loved one who is elderly, ill, or disabled is a rewarding but demanding responsibility. As a primary caregiver, you pour your heart into ensuring your loved one’s well-being, but no one is meant to shoulder such a significant role alone. At GoodLife, we understand the emotional and physical toll caregiving can take, and that is why we offer Respite Care services to provide you with the support and relief you deserve. Whether it’s for a few hours during the week, a weekend getaway, or an extended break, our compassionate caregivers step in to provide the same level of attentive care to your loved one that you would. This allows you to take time for yourself—whether that means running errands, getting some rest, or simply having a moment to recharge. -->
+                                    <br><br><br></p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 wow fadeInUp mt-4" data-wow-delay="0s"
+                            style="visibility: hidden; animation-delay: 0s; animation-name: none; background-size: cover;">
+                            <img src="./images/Service/palliative_care.jpeg" class="img-responsive" alt="">
+                            <div class="text padding20" data-bgcolor="#ffffff"
+                                style="background-color: rgb(255, 255, 255); background-size: cover;">
+                                <h3 class="text-center">Palliative care</h3>
+                                <p style="text-align:justify">At GoodLife, we provide compassionate and holistic palliative care to support individuals with life-limiting illnesses. Our dedicated team focuses on enhancing comfort, dignity, and quality of life for residents and their families during this sensitive time. Our palliative care service is tailored to meet the physical, emotional, and spiritual needs of each resident. We work closely with healthcare professionals, families, and loved ones to ensure a person-centered approach that prioritizes Pain & Symptom Management, Emotional & Psychological Support, Personalized Care Plans, Family Support & Guidance and Dignity & Respect. We are committed to providing a warm, caring space where residents feel safe, supported, and valued. Our team is here to offer reassurance and comfort every step of the way.<br></p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 wow fadeInUp mt-4" data-wow-delay="0s"
+                            style="visibility: hidden; animation-delay: 0s; animation-name: none; background-size: cover;">
+                            <img src="./images/Service/physiotherapy.jpg" class="img-responsive" alt="">
+                            <div class="text padding20" data-bgcolor="#ffffff"
+                                style="background-color: rgb(255, 255, 255); background-size: cover;">
+                                <h3 class="text-center">Physiotherapy</h3>
+                                <p style="text-align:justify">At GoodLife, we offer professional physiotherapy services to support individuals in regaining mobility, improving strength, and enhancing overall well-being. Whether recovering from an injury, surgery, or managing a chronic condition, our expert physiotherapists provide tailored treatments designed to restore independence and improve quality of life. Our physiotherapy sessions are tailored to each individual’s condition and goals. Our dedicated professionals conduct thorough assessments, create personalized treatment plans, and guide residents through exercises and techniques that promote recovery and independence. We are committed to delivering compassionate, high-quality physiotherapy within a comfortable and supportive environment.<br><br> </p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 wow fadeInUp mt-4" data-wow-delay="0s"
+                            style="visibility: hidden; animation-delay: 0s; animation-name: none; background-size: cover;">
+                            <img src="./images/bg/bg14.jpeg" class="img-responsive" alt="">
+                            <div class="text padding20" data-bgcolor="#ffffff"
+                                style="background-color: rgb(255, 255, 255); background-size: cover;">
+                                <h3 class="text-center">Hospital Bystanderds</h3>
+                                <p style="text-align:justify">We recognize that a hospital stay can be a stressful and overwhelming experience for both patients and their families. Our Hospital Bystander Services are designed to provide compassionate support, ensuring that your loved one receives the care, comfort, and attention they deserve during their time in the hospital. Our trained caregivers offer round-the-clock assistance, helping with essential daily activities such as bathing, feeding, mobility support, and companionship. More than just caregivers, we serve as a bridge between the patient, family, and medical team, keeping you informed about your loved one’s condition and advocating for their needs to ensure the best possible care. We can offer Comfort & Companionship, Personal Care Assistance, Patient Advocacy, Family Communication and Peace of Mind by offering bystanders.<br></p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 wow fadeInUp mt-4" data-wow-delay="0s"
+                            style="visibility: hidden; animation-delay: 0s; animation-name: none; background-size: cover;">
+                            <img src="./images/Service/non_emergency_transportation.jpg" class="img-responsive" alt="">
+                            <div class="text padding20" data-bgcolor="#ffffff"
+                                style="background-color: rgb(255, 255, 255); background-size: cover;">
+                                <h3 class="text-center">Non - Emergency Transportation</h3>
+                                <p style="text-align:justify">At GoodLife, we understand that safe and reliable transportation is essential for individuals with mobility challenges or medical needs. Our Non-Emergency Medical Transport (NEMT) services provide comfortable and secure transportation for residents and clients who require assistance traveling to and from medical appointments, therapy sessions, and other essential destinations. Our NEMT services include medical appointments, hospital discharges, physical therapy and rehabilitation, pharmacy and prescription pickups and personalized supports. Our vehicles are equipped to accommodate individuals with mobility limitations, including wheelchair-accessible transport. At GoodLife, we are committed to helping individuals maintain their independence and access essential healthcare services with dignity and ease.<br></p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </section>
+            <!-- section Our Services close -->
+
+            <!-- <section id="section-hero-1" data-bgimage="url(./images/Bg/bg17.jpeg" data-stellar-background-ratio=".1"
+                style="background: url(&quot;./images/Bg/bg2.jpeg&quot;) 0% -05.36px / cover;">
+                <div class="container" style="background-size: cover;">
+                    <div class="row" style="background-size: cover;">
+                        <div class="col-md-12" style="background-size: cover;">
+                            <div class="h1 typing-wrap" style="background-size: cover;">
+                               <span class="id-color"> Other Services We Provide</span>
+                            </div>
+                        </div>
+                    </div>
+                        <div class="row" style="background-size: cover;">
+                        
+                        <div class="col-md-6" style="background-size: cover;">
+                            <div class="spacer-single" style="background-size: cover;"></div>
+                            <p style="color: black;font-weight: bolder;">
+                                Respite care can be anything from a few weeks to a few months, depending on the persons requirement.Its perfect for post-operative care, or for a carer to have a holiday, and our popular respite care is available year-round.</p>
+                                <p style="color: black;font-weight: bolder;">
+                                    1:1 Sitters
+                                    Every resident is an individual, and GoodLife is committed to treating them as such. With unique personal care of a dedicated caregiver, each residents specific needs are looked after, and all members of staff understand every residents interests and preferences.</p>
+                                <div class="spacer-single" style="background-size: cover;"></div>
+                            <a href="index.html#section-why-choose-us-2" class="btn btn-custom" style="color:#fff">View All Services</a>
+                        </div>
+
+                    </div>
+                </div>
+            </section> -->
+
+            <!-- section We at begin -->
+            <section id="section-2" class="no-bottom" style="background-size: cover;">
+                <div class="container" style="background-size: cover;">
+                    <div class="row align-items-center" style="background-size: cover;">
+                        <div class="col-md-5 wow fadeInLeft text-middle"
+                            style="visibility: hidden; animation-name: none; background-size: cover;">
+                            <h2>We at GoodLife</h2>
+
+                            <p class="lead" style="text-align:justify">Our team is committed to fostering a warm, safe, and supportive environment where both you and your loved ones can experience the peace of mind that comes with exceptional care. At GoodLife, we believe in a flexible approach—because your needs and preferences can change, our services adapt to provide the most relevant support at every stage.</p>
+
+                        </div>
+                        <div class="col-md-1" style="background-size: cover;"></div>
+                        <div class="col-md-6 text-middle" style="background-size: cover;">
+                            <img src="./images/bg/bg16.jpeg" class="img-responsive" alt="">
+                        </div>
+
+                    </div>
+                </div><br>
+            </section>
+            <!-- section We at close -->
+
+            <!-- section begin -->
+           <section id="section-testimonial-coworking">
+           <!-- data-bgimage="url(./images/Bg/bg19.jpg)" class="text-light"
+                data-stellar-background-ratio=".1"
+                style="background: url(./images/Bg/bg19.jpg);height:500px;max-height:720px;background-repeat: no-repeat;"> -->
+                <!--  <div class="container" style="background-size: cover;">
+                    <div class="row" style="background-size: cover;">
+
+                        <div class="col-md-8 offset-md-2" style="background-size: cover;">
+<!-- ================== -->
+
+
+
+<!-- ======================= -->
+                            <!-- <div id="testimonial-carousel-single" class="owl-carousel owl-theme wow fadeInUp owl-loaded"
+                                style="visibility: hidden; animation-name: none; background-size: cover;">
+                        
+
+
+
+
+                                <div class="owl-stage-outer" style="background-size: cover;">
+                                    <div class="owl-stage"
+                                        style="transform: translate3d(-1780px, 0px, 0px); transition: all 0s ease 0s; width: 6230px; background-size: cover;">
+                                        <div class="owl-item cloned" style="width: 890px; background-size: cover;">
+                                            <blockquote class="testimonial-big">
+                                                <span class="title">24x7 Support!</span>
+                                                GoodLife’s PSWs are compassionate and also professional. They have
+                                                assisted us on multiple occasions on short notices. And they have never
+                                                disappointed. Their 24x7 support is highly commendable.
+
+
+                                                <span class="name">Sandra, Customer</span>
+                                            </blockquote>
+                                        </div>
+                                        <div class="owl-item cloned" style="width: 890px; background-size: cover;">
+                                            <blockquote class="testimonial-big">
+                                                <span class="title">Excellent System!</span>
+                                                Very compassionate and well trained staff. GoodLife’s has indeed recruited
+                                                some of the very best. I completely trust their process and have
+                                                absolute faith in their commitment.
+
+                                                <span class="name">Michael, Customer</span>
+                                            </blockquote>
+                                        </div>
+                                        <div class="owl-item active" style="width: 890px; background-size: cover;">
+                                            <blockquote class="testimonial-big">
+                                                <span class="title">Thank you GoodLife!</span>
+                                                GoodLife is the best. We actually found someone who cares and will dedicate himself to you, 
+                                                better than you even do for yourself. Thank you GoodLife for understanding our requirements better than us and giving us what we needed!
+
+
+                                                <span class="name">Martin, Customer</span>
+                                            </blockquote>
+                                        </div>
+                                        <div class="owl-item" style="width: 890px; background-size: cover;">
+                                            <blockquote class="testimonial-big">
+                                                <span class="title">24x7 Support!</span>
+                                                GoodLife’s PSWs are compassionate and also professional. They have
+                                                assisted us on multiple occasions on short notices. And they have never
+                                                disappointed. Their 24x7 support is highly commendable.
+
+
+                                                <span class="name">Joseph, Customer</span>
+                                            </blockquote>
+                                        </div>
+                                        <div class="owl-item" style="width: 890px; background-size: cover;">
+                                            <blockquote class="testimonial-big">
+                                                <span class="title">Excellent System!</span>
+                                                Very compassionate and well trained staff. GoodLife’s has indeed recruited
+                                                some of the very best. I completely trust their process and have
+                                                absolute faith in their commitment.
+
+                                                <span class="name">Kelvin, Customer</span>
+                                            </blockquote>
+                                        </div>
+                                        <div class="owl-item cloned" style="width: 890px; background-size: cover;">
+                                            <blockquote class="testimonial-big">
+                                                <span class="title">Thank you GoodLife!</span>
+                                                We actually found someone who cares and is dedicated. Thank you GoodLife
+                                                for understanding our requirements better than us and giving us what we
+                                                actually needed.
+
+
+                                                <span class="name">Gregar, Customer</span>
+                                            </blockquote>
+                                        </div>
+                                        <div class="owl-item cloned" style="width: 890px; background-size: cover;">
+                                            <blockquote class="testimonial-big">
+                                                <span class="title">24x7 Support!</span>
+                                                GoodLife's PSWs are compassionate and also professional. They have
+                                                assisted us on multiple occasions on short notices. And they have never
+                                                disappointed. Their 24x7 support is highly commendable.
+
+
+                                                <span class="name">Leo, Customer</span>
+                                            </blockquote>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="owl-nav disabled" style="background-size: cover;"><button type="button"
+                                        role="presentation" class="owl-prev"><span
+                                            aria-label="Previous">‹</span></button><button type="button"
+                                        role="presentation" class="owl-next"><span aria-label="Next">›</span></button>
+                                </div>
+                                <div class="owl-dots" style="background-size: cover;"><button role="button"
+                                        class="owl-dot active"><span></span></button><button role="button"
+                                        class="owl-dot"><span></span></button><button role="button"
+                                        class="owl-dot"><span></span></button></div>
+                            </div> -->
+
+                        <!-- </div>
+
+                    </div>
+                </div> -->
+                <div class="owl-carousel">
+                    <div class="item">
+                      <!-- <a href="#"> -->
+                      <!-- <img src="images/Bg/bg19.jpg"alt="" /> -->
+                      <img src="images/Service/bg19.jpg" alt="" />
+                      <div class="inner">
+                        <blockquote class="customer-text2">
+                            "The team at GoodLife has been an absolute blessing for our family. They provide not just care, but genuine compassion and warmth. My mother feels safe, comfortable, and truly at home. I couldn't ask for better caregivers!"
+                            </blockquote>
+                            <a class="customer-text1"> <span class="name">Nimmi James, Customer</span></a>
+                      
+                      </div>
+                      <!-- </a> -->
+                  </div>
+                      <div class="item black">
+                      <!-- <a href="#"> -->
+                      <img src="images/Service/bg23.jpg" alt="" />
+                      <div class="inner">
+                        <blockquote class="customer-text2">
+                            "From the very first interaction, I knew we had chosen the right care agency. The staff is professional, attentive, and always willing to go the extra mile. My father receives excellent care, and we have complete peace of mind knowing he is in good hands."
+                          </blockquote>
+                          <a class="customer-text1"><span class="name">Kevin Mathew, Customer</span></a>
+                        
+                      </div>
+                      <!-- </a> -->
+                  </div>
+                      <div class="item">
+                      <!-- <a href="#"> -->
+                      <img src="images/Service/bg27.jpg" alt="" />
+                      <div class="inner">
+                        <blockquote class="customer-text2">
+                            "The caregivers at GoodLife treat my grandmother like family. They are kind, patient, and always ensure she is comfortable and engaged. The level of service and support they provide is truly outstanding."
+                          </blockquote>
+                          <a class="customer-text1"> <span class="customer-text1 name">Suresh Krishna, Customer</span></a>
+                        
+                      </div>
+                      <!-- </a> -->
+                  </div>
+                      <div class="item black">
+                      <!-- <a href="#"> -->
+                      <img src="images/Service/bg20.jpg" alt="" />
+                      <div class="inner">
+                        <blockquote class="customer-text2">
+                            "Having a loved one who requires daily assistance can be challenging, but GoodLife has made it so much easier. Their home care services are dependable, and their caregivers are compassionate and respectful. We are incredibly grateful for their support."
+                           </blockquote>
+                           <a class="customer-text1"><span class="customer-text1 name">Ann John, Customer</span></a>
+    
+                      </div>
+                      <!-- </a> -->
+                  </div>
+
+                   <div class="item black">
+                      <!-- <a href="#"> -->
+                      <img src="images/Service/bg22.jpg" alt="" />
+                      <div class="inner">
+                        <blockquote class="customer-text2">
+                            "I can’t thank GoodLife enough for their dedication and care. The staff is always friendly, attentive, and professional. They have helped my elderly parents maintain their independence while receiving the support they need. Highly recommended!"
+                        </blockquote>
+                        <a  class="customer-text1"> <span class="customer-text1 name">Muhammad Aslam, Customer</span></a>
+                      </div>
+                      <!-- </a> -->
+                  </div>
+                </div>
+            </section>
+
+            <!-- section Contact Us begin -->
+            <section id="section-contact-landing-product" style="background-size: cover;">
+                <div class="container" style="background-size: cover;">
+                    <div class="row" style="background-size: cover;">
+                        <div class="col-md-6 offset-md-3 text-center wow fadeInUp"
+                            style="visibility: hidden; animation-name: none; background-size: cover;">
+                            <h2>Get in touch</h2>
+                            <p>Want to get in touch? We'd love to hear from you. Heres how you can reach us</p>
+                        </div>
+
+                        <div class="col-md-8 offset-md-2 wow fadeInLeft"
+                            style="visibility: hidden; animation-name: none; background-size: cover;">
+                            <div id="result1" style="color: red; background-size: cover;"></div>
+                            <form name="contactForm" id="contact_form" action="#">
+                                <div class="row" style="background-size: cover;">
+                                    <div class="col-md-6" style="background-size: cover;">
+                                        <div id="name_error" class="error" style="background-size: cover;">Please enter
+                                            your first name.</div>
+                                        <div style="background-size: cover;">
+                                            <input type="text" name="fname" id="fname" class="form-control"
+                                                placeholder="First Name*" required="">
+                                        </div>
+                                        <div id="name_error" class="error" style="background-size: cover;">Please enter
+                                            your last name.</div>
+                                        <div style="background-size: cover;">
+                                            <input type="text" name="lname" id="lname" class="form-control"
+                                                placeholder="Last Name">
+                                        </div>
+                                        <div id="email_error" class="error" style="background-size: cover;">Please enter
+                                            your valid E-mail ID.</div>
+                                        <div style="background-size: cover;">
+                                            <input type="email" name="email" id="email" class="form-control"
+                                                placeholder="Your Email*" required="">
+                                        </div>
+
+                                        <div id="phone_error" class="error" style="background-size: cover;">Please enter
+                                            your phone number.</div>
+                                        <div style="background-size: cover;">
+                                            <input type="text" name="phone" id="phone" class="form-control"
+                                                placeholder="Your Phone*" required="">
+                                        </div>
+                                       
+                                    </div>
+                                    <div class="col-md-6" style="background-size: cover;">
+                                        <div id="phone_error" class="error" style="background-size: cover;">Please enter
+                                            your zip code.</div>
+                                        <div style="background-size: cover;">
+                                            <input type="text" name="zipcode" id="zipcode" class="form-control"
+                                                placeholder="Zipcode">
+                                        </div>
+                                        <div id="message_error" class="error" style="background-size: cover;">Please
+                                            enter your message.</div>
+                                        <div style="background-size: cover;">
+                                            <textarea name="message" id="message" class="form-control"
+                                                placeholder="Your Message"></textarea>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-12 text-center" style="background-size: cover;">
+                                        <p id="submit">
+                                            <button name="submit" class="btn btn-lg bgcolor-primary"
+                                                style="color: aliceblue" onclick="sendEmail()">Submit Form</button>
+                                        </p>
+                                        <div id="mail_success" class="success" style="background-size: cover;">Your
+                                            message has been sent successfully.</div>
+                                        <div id="mail_fail" class="error" style="background-size: cover;">Sorry, error
+                                            occured this time sending your message.</div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- section Contact Us close -->
+            <!-- partial:index.partial.html -->
+        
+            <link rel="stylesheet" href="./styles/font-awesome.min.css"><a
+                href="https://api.whatsapp.com/send?phone=+91 7025566565&amp;text=Welcome%20to%20GoodLife%21%20."
+                class="float" target="_blank"><i class="fa fa-whatsapp my-float"></i></a>
+            <!-- partial -->
+                <!-- footer begin -->
+                    <footer class="light">
+                        <div class="container" style="background-size: cover;">
+                            <div class="row" style="background-size: cover;">
+                              
+                                <div class="col-md-6" style="background-size: cover;"><img src="./images/logoGoodLife.png"
+                                        class="logo-small" alt="">
+                                        <p style="text-align: justify;">
+                                            At GoodLife, we are dedicated to providing exceptional in-home care services that promote independence, dignity, and overall well-being. Our team of experienced and highly trained registered nurses, care aides, and personal support workers deliver compassionate and professional care in the comfort of your home. We offer personalized care solutions for seniors, individuals recovering from surgery, those with disabilities, and anyone in need of extra support. Whether it’s assistance with daily activities, medication management, companionship, or specialized nursing care, our goal is to enhance quality of life while ensuring safety and peace of mind for our clients and their families.
+                                        </p>
+                                        </div>
+                               
+                                <div class="col-md-6" style="background-size: cover;">
+                                    <div class="widget widget-address" style="background-size: cover;">
+                                        <h2 style="text-align:center">Contact Us</h2>
+                                        <address>
+                                            <span><strong>Address:</strong>Pattathil Building, Opp Federal Bank, Kattanam, Pallickal P.O, Alappuzha
+                                            </span><span><strong>Office Number:</strong>+91 7025566565</span>
+                                            <span><strong>For Inquire:</strong>+91 7025566565, +91 6235616432</span>
+                                            <span><strong>Careers:</strong>+91 7025566565</span>
+                                            <span><strong>Email:</strong><a href="mailto:jjgoodlifecare@gmail.com">jjgoodlifecare@gmail.com</a></span>
+                                            <span><strong>Web:</strong><a href="https://www.jjgoodlife.com">jjgoodlife.com</a></span>
+                                        </address>
+                                    </div>
+                                </div>
+                                <!-- <div class="col-md-3" style="background-size: cover;">
+                                    <div class="widget widget_recent_post" style="background-size: cover;">
+                                        <h2>Our Services</h2>
+                                        <ul>
+                                            <li><a href="services.html">Long Term Care Homes</a></li>
+                                            <li><a href="services.html">Retirement Homes</a></li>
+                                            <li><a href="services.html">Hospitals</a></li>
+                                            <li><a href="services.html">Home care</a></li>
+                                            <li><a href="services.html">Customized care services</a></li>
+                                            <li><a href="services.html">Alzheimer's Care</a></li>
+                                            <li><a href="services.html">Palliative Care</a></li>
+                                        </ul>
+                                    </div>
+                                </div> -->
+                               
+                            </div>
+                        </div>
+                        <div class="subfooter light" style="background-size: cover;">
+                            <div class="container" style="background-size: cover;">
+                                <div class="row" style="background-size: cover;">
+                                    <div class="col-md-6" style="background-size: cover;">Copyright 2022 - DESIGNED BY
+                                        <a
+                                            href="https://www.jjgoodlife.com"><span>GoodLife</span></a>.
+                                        ALL RIGHTS RESERVED </div>
+                                    <div class="col-md-6 text-right" style="background-size: cover;">
+                                        <div class="social-icons" style="background-size: cover;"><a href="#"
+                                                target="_blank"><i class="fa fa-facebook fa-lg"></i></a><a
+                                                href="index.html"><i class="fa fa-twitter fa-lg"
+                                                    target="_blank"></i></a><a href="index.html" target="_blank"><i
+                                                    class="fa fa-linkedin fa-lg"></i></a><a href="index.html"
+                                                target="_blank"><i class="fa fa-instagram fa-lg"></i></a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><a href="index.html" id="back-to-top"></a>
+                    </footer>
+                    <!-- footer close -->
+        </div>
+    </div>
+    <!-- Javascript Files==================================================-->
+        <!-- <script src="./styles/jquery.min.js"></script> -->
+        <!-- <script src="./styles/jpreLoader.js"></script> -->
+        <!-- <script src="./styles/bootstrap.min.js"></script> -->
+        <!-- <script src="./styles/jquery.isotope.min.js"></script> -->
+        <!-- <script src="./styles/easing.js"></script> -->
+        <!-- <script src="./styles/jquery.flexslider-min.js"></script> -->
+        <!-- <script src="./styles/jquery.scrollto.js"></script> -->
+       
+        <!-- <script src="./styles/jquery.countTo.js"></script> -->
+        <!-- <script src="./styles/classie.js"></script> -->
+        <!-- <script src="./styles/video.resize.js"></script> -->
+        <!-- <script src="./styles/validation.js"></script> -->
+        <!-- <script src="./styles/js"></script> -->
+        <!-- <script src="./styles/map.js"></script> -->
+        <script src="https://smtpjs.com/v3/smtp.js"></script>  
+	<script type="text/javascript">
+		function sendEmail() {
+            console.log("Called MailSent");
+			Email.send({
+				Host: "mail.GoodLifestaffing.com",
+				Username : "info@GoodLifestaffing.com",
+				Password : "info@GoodLifestaffing",
+				From :document.getElementById("email").value ,
+                To : "info@GoodLifestaffing.com",
+				Subject : "Enquiry From GoodLifestaffing.com",
+				Body :"Greetings,"+ "\n" + "This mail has been generated through  GoodLifestaffing.com."+ "\n" + 
+                "Enquiry sent by:" +document.getElementById("fname").value +" "+document.getElementById("lname").value + "\n" 
+                +"Contact No.: "+ document.getElementById("phone").value + "\n" 
+                +"Enquiry Content : "+document.getElementById("message").value 
+			})
+			.then(function(message){
+                console.log(message)
+				alert(message)
+			});
+            // var url=window.location.href.split('?')[0];
+            // location.replace(url);
+
+		}
+	</script>
+        <script src="styles/wow.min.js"></script>
+        <script src="styles/jquery.magnific-popup.min.js"></script>
+        <script src="styles/jquery.stellar.min.js"></script>
+        <script src="styles/enquire.min.js"></script>
+        <script src="styles/designesia.js"></script>
+        <script src="js/jquery.min.js"></script>
+        <!-- <script src="js/jquery-migrate-3.0.1.min.js"></script> -->
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <!-- <script src="js/jquery.easing.1.3.js"></script> -->
+        <!-- <script src="js/jquery.waypoints.min.js"></script> -->
+        <!-- <script src="js/jquery.stellar.min.js"></script> -->
+        <!-- <script src="js/jquery.animateNumber.min.js"></script> -->
+        <script src="owlcarousel/src/js/owl.carousel.js"></script>
+        <script src="owlcarousel/src/js/owl.autoplay.js"></script>
+        <script src="owlcarousel/src/js/owl.autorefresh.js"></script>
+        <script src="js/jquery.magnific-popup.min.js"></script>
+        <!-- <script src="js/scrokllax.min.js"></script> -->
+        <!-- <script src="js/main.js"></script> -->
+        <!-- SLIDER REVOLUTION SCRIPTS
+            <script src="./styles/jquery.themepunch.plugins.min.js"></script>
+            <script src="./styles/jquery.themepunch.revolution.min.js"></script>
+            <script src="./styles/typed.js"></script>
+            <script>$(function () {
+
+                    // jquery typed plugin
+                    $(".typed").typed({
+                        stringsElement: $('.typed-strings'),
+                        typeSpeed: 100,
+                        backDelay: 1500,
+                        loop: true,
+                        contentType: 'html', // or text
+
+                        // defaults to false for infinite loop
+                        loopCount: false,
+                        callback: function () {
+                            null;
+                        }
+
+                        ,
+                        resetCallback: function () {
+                            newTyped();
+                        }
+                    }
+
+                    );
+                }
+
+                );
+            </script>
+            <script>'undefined' === typeof _trfq || (window._trfq = []);
+
+                'undefined' === typeof _trfd && (window._trfd = []),
+                    _trfd.push({
+                        'tccl.baseHost': 'secureserver.net'
+                    }
+
+                    ),
+                    _trfd.push({
+                        'ap': 'cpsh'
+                    }
+
+                        , {
+                            'server': 'sg2plcpnl0063'
+                        }
+
+                    ) // Monitoring performance to make your website faster. If you want to opt-out, please contact web hosting support.
+                    </script>
+            
+            
+            <script crossorigin="anonymous|use-credentials" src="./styles/tcc_l.combined.1.0.6.min.js"></script><span>
+                <script crossorigin="anonymous|use-credentials" src="./styles/6932" type="text/javascript"></script>
+            </span><span>
+                <script  crossorigin="anonymous|use-credentials" src="./styles/getjs" type="text/javascript"></script>
+            </span> -->
+
+<script>
+$('.owl-carousel').owlCarousel({
+    stagePadding: 200,
+    loop:true,
+    margin:10,
+    nav:false,
+    items:1,
+    lazyLoad: true,
+    nav:true,
+
+    loop:true,
+    autoplay:true,
+    autoplayTimeout:3000,
+    autoplayHoverPause:true,
+
+  responsive:{
+        0:{
+            items:1,
+            stagePadding: 60
+        },
+        600:{
+            items:1,
+            stagePadding: 100
+        },
+        1000:{
+            items:1,
+            stagePadding: 200
+        },
+        1200:{
+            items:1,
+            stagePadding: 250
+        },
+        1400:{
+            items:1,
+            stagePadding: 300
+        },
+        1600:{
+            items:1,
+            stagePadding: 350
+        },
+        1800:{
+            items:1,
+            stagePadding: 400
+        }
+    }
+})
+
+
+</script>
+           
+</body>
+
+</html>
